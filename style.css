@@ -190,3 +190,46 @@ footer{
         left: 0;
     }
 }
+.project {
+    padding: 24px 0;
+    border-bottom: 1px solid var(--stroke-color);
+}
+
+.project h2 {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+}
+
+.project p {
+    margin-bottom: 16px;
+    font-size: 1.1em;
+}
+
+.project a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.project a:hover {
+    color: var(--highlight-color);
+}
+
+#about-me {
+    padding: 24px 0;
+    text-align: center;
+}
+
+#about-me h2 {
+    font-size: 1.8em;
+    margin-bottom: 12px;
+}
+
+#about-me p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: var(--text-color);
+    max-width: 600px;
+    margin: 0 auto;
+}
